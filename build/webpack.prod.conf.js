@@ -9,9 +9,9 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+// const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 const { BaseHrefWebpackPlugin } = require('base-href-webpack-plugin')
-const OfflinePlugin = require('offline-plugin')
+// const OfflinePlugin = require('offline-plugin')
 
 const env =
   process.env.NODE_ENV === 'testing'
@@ -43,16 +43,16 @@ const webpackConfig = merge(baseWebpackConfig, {
       'process.env': env
     }),
     //Tree shaking, dead code elimination.
-    new webpack.optimize.UglifyJsPlugin({
-      compress: {
-        warnings: false
-      },
-      output: {
-        comments: false
-      },
-      sourceMap: config.build.productionSourceMap,
-      parallel: true
-    }),
+    // new webpack.optimize.UglifyJsPlugin({
+    //   compress: {
+    //     warnings: false
+    //   },
+    //   output: {
+    //     comments: false
+    //   },
+    //   sourceMap: config.build.productionSourceMap,
+    //   parallel: true
+    // }),
     // extract css into its own file
     new ExtractTextPlugin({
       filename: utils.assetsPath('css/[name].[contenthash].css'),
@@ -127,30 +127,30 @@ const webpackConfig = merge(baseWebpackConfig, {
         ignore: ['.*']
       }
     ]),
-    new CopyWebpackPlugin([
-      {
-        from: path.resolve(__dirname, '../offline-page.html'),
-        to: `${config.build.assetsRoot}/offline-page.html`,
-        toType: 'file'
-      }
-    ]),
-    new OfflinePlugin({
-      safeToUseOptionalCaches: true,
-      publicPath: `${config.build.ipnsOptionalPath}`,
-      caches: {
-        main: [
-          `${config.build.ipnsOptionalPath}static/css/app.*.css`,
-          `${config.build.ipnsOptionalPath}static/js/vendor.*.js`,
-          `${config.build.ipnsOptionalPath}static/js/app.*.js`
-        ],
-        additional: [':externals:'],
-        optional: [':rest:']
-      },
-      externals: [`${config.build.ipnsOptionalPath}index.html`],
-      ServiceWorker: {
-        navigateFallbackURL: '/'
-      }
-    })
+    // new CopyWebpackPlugin([
+    //   {
+    //     from: path.resolve(__dirname, '../offline-page.html'),
+    //     to: `${config.build.assetsRoot}/offline-page.html`,
+    //     toType: 'file'
+    //   }
+    // ]),
+    // new OfflinePlugin({
+    //   safeToUseOptionalCaches: true,
+    //   publicPath: `${config.build.ipnsOptionalPath}`,
+    //   caches: {
+    //     main: [
+    //       `${config.build.ipnsOptionalPath}static/css/app.*.css`,
+    //       `${config.build.ipnsOptionalPath}static/js/vendor.*.js`,
+    //       `${config.build.ipnsOptionalPath}static/js/app.*.js`
+    //     ],
+    //     additional: [':externals:'],
+    //     optional: [':rest:']
+    //   },
+    //   externals: [`${config.build.ipnsOptionalPath}index.html`],
+    //   ServiceWorker: {
+    //     navigateFallbackURL: '/'
+    //   }
+    // })
   ]
 })
 
