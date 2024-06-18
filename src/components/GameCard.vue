@@ -11,14 +11,15 @@
   >
     <h3 class="cardTitle">{{ cardWord }}</h3>
     <div
-      v-if="!isTranslationVisible"
+      v-if="!isTranslationVisible && isCurrent"
       class="translation show-translation-button"
       @click="isTranslationVisible=true"
+      @touchend="isTranslationVisible=true"
     >
       Show translation
     </div>
     <div
-      v-if="isTranslationVisible"
+      v-if="isTranslationVisible && isCurrent"
       class="translation translated-text"
     >
       {{ cardEnTranslation }}
@@ -114,15 +115,32 @@ export default {
         const { x, y } = this.interactPosition;
         const { interactXThreshold, interactYThreshold } = this.$options.static;
         this.isInteractAnimating = true;
-
-        if (x > interactXThreshold && this.cardArticle === 'Der') {
-          this.playCard(DER_ARTICLE);
+        if (x > interactXThreshold) {
+          if (this.cardArticle === 'Der') {
+            this.saveAttempt(true);
+            this.playCard(DER_ARTICLE);
+          } else {
+            this.saveAttempt(false);
+            this.resetCardPosition();
+          }
         }
-        else if (x < -interactXThreshold && this.cardArticle === 'Die') {
-          this.playCard(DIE_ARTICLE);
+        else if (x < -interactXThreshold) {
+          if (this.cardArticle === 'Die') {
+            this.saveAttempt(true);
+            this.playCard(DIE_ARTICLE);
+          } else {
+            this.saveAttempt(false);
+            this.resetCardPosition();
+          }
         }
-        else if (y < -interactYThreshold && this.cardArticle === 'Das') {
-          this.playCard(DAS_ARTICLE);
+        else if (y < -interactYThreshold) {
+          if (this.cardArticle === 'Das') {
+            this.saveAttempt(true);
+            this.playCard(DAS_ARTICLE);
+          } else {
+            this.saveAttempt(false);
+            this.resetCardPosition();
+          }
         }
         else this.resetCardPosition();
       }
@@ -174,6 +192,19 @@ export default {
       }
 
       this.hideCard();
+    },
+
+    saveAttempt(isRight) {
+      let correctAnswers = JSON.parse(localStorage.getItem('correctAnswers') || '[]');
+      // if a word is already in wrongAnswers at the last index, no need to add it again
+      let wrongAnswers = JSON.parse(localStorage.getItem('wrongAnswers') || '[]');
+      if (isRight) {
+        correctAnswers.push(this.cardWord);
+        localStorage.setItem('correctAnswers', JSON.stringify(correctAnswers));
+      } else {
+        wrongAnswers.push(this.cardWord);
+        localStorage.setItem('wrongAnswers', JSON.stringify(wrongAnswers));
+      }
     },
 
     interactSetPosition(coordinates) {
@@ -293,7 +324,9 @@ $fs-card-title: 1.125em;
   color: #999;
   cursor: pointer;
 }
-.translated-text {
-
+.accuracy-rate {
+  position: absolute;
+  top: -60px;
+  color: gray;
 }
 </style>
