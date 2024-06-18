@@ -1,19 +1,5 @@
 webpackJsonp([0],{
 
-/***/ "8J0m":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "HRYS":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
 /***/ "NHnr":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -28,6 +14,7 @@ var interact = __webpack_require__("oIUO");
 var interact_default = /*#__PURE__*/__webpack_require__.n(interact);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/GameCard.vue
+//
 //
 //
 //
@@ -142,13 +129,30 @@ const DAS_ARTICLE = 'cardSkipped';
         const { x, y } = this.interactPosition;
         const { interactXThreshold, interactYThreshold } = this.$options.static;
         this.isInteractAnimating = true;
-
-        if (x > interactXThreshold && this.cardArticle === 'Der') {
-          this.playCard(DER_ARTICLE);
-        } else if (x < -interactXThreshold && this.cardArticle === 'Die') {
-          this.playCard(DIE_ARTICLE);
-        } else if (y < -interactYThreshold && this.cardArticle === 'Das') {
-          this.playCard(DAS_ARTICLE);
+        if (x > interactXThreshold) {
+          if (this.cardArticle === 'Der') {
+            this.saveAttempt(true);
+            this.playCard(DER_ARTICLE);
+          } else {
+            this.saveAttempt(false);
+            this.resetCardPosition();
+          }
+        } else if (x < -interactXThreshold) {
+          if (this.cardArticle === 'Die') {
+            this.saveAttempt(true);
+            this.playCard(DIE_ARTICLE);
+          } else {
+            this.saveAttempt(false);
+            this.resetCardPosition();
+          }
+        } else if (y < -interactYThreshold) {
+          if (this.cardArticle === 'Das') {
+            this.saveAttempt(true);
+            this.playCard(DAS_ARTICLE);
+          } else {
+            this.saveAttempt(false);
+            this.resetCardPosition();
+          }
         } else this.resetCardPosition();
       }
     });
@@ -201,6 +205,19 @@ const DAS_ARTICLE = 'cardSkipped';
       this.hideCard();
     },
 
+    saveAttempt(isRight) {
+      let correctAnswers = JSON.parse(localStorage.getItem('correctAnswers') || '[]');
+      // if a word is already in wrongAnswers at the last index, no need to add it again
+      let wrongAnswers = JSON.parse(localStorage.getItem('wrongAnswers') || '[]');
+      if (isRight) {
+        correctAnswers.push(this.cardWord);
+        localStorage.setItem('correctAnswers', JSON.stringify(correctAnswers));
+      } else {
+        wrongAnswers.push(this.cardWord);
+        localStorage.setItem('wrongAnswers', JSON.stringify(wrongAnswers));
+      }
+    },
+
     interactSetPosition(coordinates) {
       const { x = 0, y = 0, rotation = 0 } = coordinates;
       this.interactPosition = { x, y, rotation };
@@ -216,17 +233,17 @@ const DAS_ARTICLE = 'cardSkipped';
     }
   }
 });
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-4e4f5068","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/GameCard.vue
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-7dd2a2a8","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/GameCard.vue
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.isShowing)?_c('div',{ref:"interactElement",staticClass:"card",class:{
     isAnimating: _vm.isInteractAnimating,
     isCurrent: _vm.isCurrent
-  },style:({ transform: _vm.transformString })},[_c('h3',{staticClass:"cardTitle"},[_vm._v(_vm._s(_vm.cardWord))]),_vm._v(" "),(!_vm.isTranslationVisible)?_c('div',{staticClass:"translation show-translation-button",on:{"click":function($event){_vm.isTranslationVisible=true}}},[_vm._v("\n    Show translation\n  ")]):_vm._e(),_vm._v(" "),(_vm.isTranslationVisible)?_c('div',{staticClass:"translation translated-text"},[_vm._v("\n    "+_vm._s(_vm.cardEnTranslation)+"\n  ")]):_vm._e()]):_vm._e()}
+  },style:({ transform: _vm.transformString })},[_c('h3',{staticClass:"cardTitle"},[_vm._v(_vm._s(_vm.cardWord))]),_vm._v(" "),(!_vm.isTranslationVisible && _vm.isCurrent)?_c('div',{staticClass:"translation show-translation-button",on:{"click":function($event){_vm.isTranslationVisible=true},"touchend":function($event){_vm.isTranslationVisible=true}}},[_vm._v("\n    Show translation\n  ")]):_vm._e(),_vm._v(" "),(_vm.isTranslationVisible && _vm.isCurrent)?_c('div',{staticClass:"translation translated-text"},[_vm._v("\n    "+_vm._s(_vm.cardEnTranslation)+"\n  ")]):_vm._e()]):_vm._e()}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ var components_GameCard = (esExports);
 // CONCATENATED MODULE: ./src/components/GameCard.vue
 function injectStyle (ssrContext) {
-  __webpack_require__("HRYS")
+  __webpack_require__("yFZ5")
 }
 var normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -239,7 +256,7 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-4e4f5068"
+var __vue_scopeId__ = "data-v-7dd2a2a8"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
@@ -379,6 +396,13 @@ const NUMBER_OF_NOUNS = 2000;
     },
     pickRandomWords(numberOfWords) {
       let randomWords = [];
+      // const pastCorrectAnswers = JSON.parse(localStorage.getItem('correctAnswers'));
+      // const pastWrongAnswers = JSON.parse(localStorage.getItem('wrongAnswers'));
+      // if (pastCorrectAnswers.length + pastWrongAnswers.length > 10) {
+      //   for (let answer of pastWrongAnswers) {
+
+      //   }
+      // }
       for (let i = 0; i < numberOfWords; i++) {
         const randomInd = Math.floor(Math.random() * NUMBER_OF_NOUNS);
         randomWords.push(german_nouns_default.a[randomInd]);
@@ -387,14 +411,14 @@ const NUMBER_OF_NOUNS = 2000;
     }
   }
 });
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-257393f3","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/App.vue
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-467d7392","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/App.vue
 var App_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"app"}},[_c('GameCardsStack',{attrs:{"cards":_vm.visibleCards},on:{"cardAccepted":_vm.handleCardAccepted,"cardRejected":_vm.handleCardRejected,"cardSkipped":_vm.handleCardSkipped,"hideCard":_vm.removeCardFromDeck}})],1)}
 var App_staticRenderFns = []
 var App_esExports = { render: App_render, staticRenderFns: App_staticRenderFns }
 /* harmony default export */ var selectortype_template_index_0_src_App = (App_esExports);
 // CONCATENATED MODULE: ./src/App.vue
 function App_injectStyle (ssrContext) {
-  __webpack_require__("8J0m")
+  __webpack_require__("ygFJ")
 }
 var App_normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -450,7 +474,21 @@ module.exports = [{"english_translation":"Time","article":"Die","word":"Zeit"},{
 
 // removed by extract-text-webpack-plugin
 
+/***/ }),
+
+/***/ "yFZ5":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "ygFJ":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
 /***/ })
 
 },["NHnr"]);
-//# sourceMappingURL=app.c0d1fbba43d807b85a84.js.map
+//# sourceMappingURL=app.54737b110015bd5dd9c6.js.map
