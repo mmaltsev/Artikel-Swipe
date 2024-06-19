@@ -9,7 +9,7 @@
     class="card"
     :style="{ transform: transformString }"
   >
-    <h3 class="cardTitle">{{ cardWord }}</h3>
+    <div class="cardTitle">{{ cardWord }}</div>
     <div
       v-if="!isTranslationVisible && isCurrent"
       class="translation show-translation-button"
@@ -233,7 +233,7 @@ $cardsPositionOffset: 55vh * 0.06;
 $cardsScaleOffset: 0.08;
 $defaultTranslation: $cardsPositionOffset * $cardsTotal;
 $defaultScale: 1 - ($cardsScaleOffset * $cardsTotal);
-$fs-card-title: 1.125em;
+$fs-card-title: 1.925em;
 
 .card {
   @include card();
@@ -253,9 +253,9 @@ $fs-card-title: 1.125em;
   display: flex;
   max-height: 350px;
   margin: auto;
-  font-size: $fs-h2;
+  font-size: $fs-h1;
   font-weight: $fw-bold;
-  color: $c-white;
+  color: $c-black;
   background-image: linear-gradient(
     -180deg,
     $primary-gradient-start 2%,
@@ -281,7 +281,7 @@ $fs-card-title: 1.125em;
 }
 
 .cardTitle {
-  margin: 0 0 15px;
+  margin-top: 70px;
   font-size: $fs-card-title;
 }
 
@@ -296,11 +296,11 @@ $fs-card-title: 1.125em;
     transform: translateY($translation) scale($scale);
 
     @if $i == 3 {
-      color: $c-red-25;
-      background-color: $c-red-25;
+      color: $c-gray-25;
+      background-color: $c-gray-25;
     } @else if $i == 2 {
-      color: $c-red-50;
-      background-color: $c-red-50;
+      color: $c-gray-50;
+      background-color: $c-gray-50;
     }
 
     @if $i != 1 {
@@ -314,19 +314,14 @@ $fs-card-title: 1.125em;
 }
 .translation {
   position: fixed;
-  margin-top: 80px;
+  margin-top: 180px;
   font-weight: 100;
 }
 .show-translation-button {
-  background: lightgray;
+  background: #d8d8d8;
+  color: #fff;
   padding: 3px 10px;
   border-radius: 20px;
-  color: #999;
   cursor: pointer;
-}
-.accuracy-rate {
-  position: absolute;
-  top: -60px;
-  color: gray;
 }
 </style>
