@@ -2,7 +2,7 @@
   <div class="cards">
     <GameCard
       v-for="(card, index) in cards"
-      :key="card.english_translation"
+      :key="(card.english_translation + index)"
       :cardWord="card.word"
       :cardArticle="card.article"
       :cardEnTranslation="card.english_translation"
@@ -41,8 +41,9 @@ export default {
 .cards {
   position: relative;
   display: flex;
-  margin: 100px auto;
+  margin: auto;
   width: 300px;
+  padding-top: 150px;
 }
 .tags {
   position: absolute;

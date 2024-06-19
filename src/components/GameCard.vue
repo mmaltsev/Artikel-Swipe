@@ -281,7 +281,7 @@ $fs-card-title: 1.925em;
 }
 
 .cardTitle {
-  margin-top: 70px;
+  margin-top: 65px;
   font-size: $fs-card-title;
 }
 
