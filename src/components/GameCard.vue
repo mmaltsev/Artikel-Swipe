@@ -251,7 +251,7 @@ $fs-card-title: 1.925em;
   }
 
   display: flex;
-  max-height: 350px;
+  max-height: 400px;
   margin: auto;
   font-size: $fs-h1;
   font-weight: $fw-bold;
@@ -269,7 +269,7 @@ $fs-card-title: 1.925em;
   pointer-events: none;
   will-change: transform, opacity;
 
-  height: 100vw;
+  height: 120vw;
 
   &.isCurrent {
     pointer-events: auto;
@@ -281,7 +281,7 @@ $fs-card-title: 1.925em;
 }
 
 .cardTitle {
-  margin-top: 65px;
+  margin-top: 105px;
   font-size: $fs-card-title;
 }
 
@@ -314,11 +314,11 @@ $fs-card-title: 1.925em;
 }
 .translation {
   position: fixed;
-  margin-top: 180px;
+  margin-top: 230px;
   font-weight: 100;
 }
 .show-translation-button {
-  background: #d8d8d8;
+  background: #cfcfcf;
   color: #fff;
   padding: 3px 10px;
   border-radius: 20px;

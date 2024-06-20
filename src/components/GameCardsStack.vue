@@ -43,12 +43,12 @@ export default {
   display: flex;
   margin: auto;
   width: 300px;
-  padding-top: 150px;
+  padding-top: 100px;
 }
 .tags {
   position: absolute;
   width: 300px;
-  height: 350px;
+  height: 400px;
 }
 .tag {
   color: white;

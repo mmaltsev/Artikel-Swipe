@@ -9,7 +9,10 @@
 		/>
     <div class="footer">
       Inspired by
-      <a href="https://apps.apple.com/de/app/derdasdie-german-articles/id6480586707">DerDasDie. German articles</a>
+      <a
+        href="https://apps.apple.com/de/app/derdasdie-german-articles/id6480586707"
+        target="_blank"
+      >DerDasDie. German articles</a>
     </div>
   </div>
 </template>
@@ -81,6 +84,6 @@ export default {
   bottom: 10px;
   right: 10px;
   font-size: 0.8em;
-  color: #444;
+  color: #222;
 }
 </style>
