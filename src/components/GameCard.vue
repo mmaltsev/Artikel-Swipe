@@ -269,7 +269,7 @@ $fs-card-title: 1.925em;
   pointer-events: none;
   will-change: transform, opacity;
 
-  height: 120vw;
+  height: 70vh;
 
   &.isCurrent {
     pointer-events: auto;
@@ -323,5 +323,19 @@ $fs-card-title: 1.925em;
   padding: 3px 10px;
   border-radius: 20px;
   cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    max-height: 600px;
+  }
+  .cardTitle {
+    margin-top: 30vh;
+  }
+  .translation {
+    margin-top: 45vh;
+  }
+  .show-translation-button {
+    background: #bbb;
+  }
 }
 </style>
