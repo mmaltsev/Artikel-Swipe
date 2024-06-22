@@ -418,7 +418,9 @@ const NUMBER_OF_NOUNS = 2000;
       //   }
       // }
       const pastWrongAnswers = JSON.parse(localStorage.getItem('wrongAnswers'));
-      if (pastWrongAnswers.length % 5 === 0) {}
+      // if (pastWrongAnswers.length % 5 === 0) {
+
+      // }
       for (let i = 0; i < numberOfWords; i++) {
         const randomInd = Math.floor(Math.random() * NUMBER_OF_NOUNS);
         randomWords.push(german_nouns_default.a[randomInd]);
@@ -427,14 +429,14 @@ const NUMBER_OF_NOUNS = 2000;
     }
   }
 });
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-e4408fc6","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/App.vue
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-60c9b9a6","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/App.vue
 var App_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"app"}},[_c('GameCardsStack',{attrs:{"cards":_vm.visibleCards},on:{"cardAccepted":_vm.handleCardAccepted,"cardRejected":_vm.handleCardRejected,"cardSkipped":_vm.handleCardSkipped,"hideCard":_vm.removeCardFromDeck}}),_vm._v(" "),_vm._m(0)],1)}
 var App_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"footer"},[_vm._v("\n      Inspired by\n      "),_c('a',{attrs:{"href":"https://apps.apple.com/de/app/derdasdie-german-articles/id6480586707","target":"_blank"}},[_vm._v("DerDasDie. German articles")])])}]
 var App_esExports = { render: App_render, staticRenderFns: App_staticRenderFns }
 /* harmony default export */ var selectortype_template_index_0_src_App = (App_esExports);
 // CONCATENATED MODULE: ./src/App.vue
 function App_injectStyle (ssrContext) {
-  __webpack_require__("VJwH")
+  __webpack_require__("gI6H")
 }
 var App_normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -485,14 +487,14 @@ module.exports = [{"english_translation":"Time","article":"Die","word":"Zeit"},{
 
 /***/ }),
 
-/***/ "VJwH":
+/***/ "enWK":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ "enWK":
+/***/ "gI6H":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -500,4 +502,4 @@ module.exports = [{"english_translation":"Time","article":"Die","word":"Zeit"},{
 /***/ })
 
 },["NHnr"]);
-//# sourceMappingURL=app.4711eb82f628cfc61015.js.map
+//# sourceMappingURL=app.ea967ac3ab6879c35458.js.map
