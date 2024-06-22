@@ -98,7 +98,7 @@ export default {
     height: 50vh;
   }
   .tag-der, .tag-die {
-    margin-top: 35vh;
+    margin-top: 30vh;
   }
 }
 </style>
