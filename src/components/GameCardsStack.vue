@@ -2,10 +2,11 @@
   <div class="cards">
     <GameCard
       v-for="(card, index) in cards"
-      :key="(card.english_translation + index)"
+      :key="(card.englishTranslation + index)"
       :cardWord="card.word"
       :cardArticle="card.article"
-      :cardEnTranslation="card.english_translation"
+      :cardEnTranslation="card.englishTranslation"
+      :cardTipId="card.tipId"
       :is-current="index === 0"
       @cardAccepted="$emit('cardAccepted');"
       @cardRejected="$emit('cardRejected');"

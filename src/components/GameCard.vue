@@ -9,6 +9,20 @@
     class="card"
     :style="{ transform: transformString }"
   >
+    <div
+      v-if="isCurrent && cardTip"
+      class="tip-button"
+      @click="isTipVisible=true"
+      @touchend="isTipVisible=true"
+    >
+      💡 Tip
+    </div>
+    <div
+      v-if="isCurrent && isTipVisible && cardTip"
+      class="tip-text"
+    >
+      💡 {{ cardTip }}
+    </div>
     <div class="cardTitle">{{ cardWord }}</div>
     <div
       v-if="!isTranslationVisible && isCurrent"
@@ -29,6 +43,7 @@
 
 <script>
 import interact from 'interact.js';
+import tips from '../../static/tips.json';
 const DER_ARTICLE = 'cardAccepted';
 const DIE_ARTICLE = 'cardRejected';
 const DAS_ARTICLE = 'cardSkipped';
@@ -55,6 +70,10 @@ export default {
       type: String,
       required: true
     },
+    cardTipId: {
+      type: String,
+      required: true
+    },
     isCurrent: {
       type: Boolean,
       required: true
@@ -65,6 +84,8 @@ export default {
     return {
       isShowing: true,
       isTranslationVisible: false,
+      isTipVisible: false,
+      isTip: true,
       isInteractAnimating: true,
       isInteractDragged: null,
       interactPosition: {
@@ -83,6 +104,13 @@ export default {
       }
 
       return null;
+    },
+
+    cardTip() {
+      if (this.cardTipId !== '') {
+        return tips[+this.cardTipId].text;
+      }
+      return undefined;
     }
   },
 
@@ -323,6 +351,30 @@ $fs-card-title: 1.925em;
   padding: 3px 10px;
   border-radius: 20px;
   cursor: pointer;
+}
+.tip-button {
+  position: fixed;
+  top: 60px;
+  right: 20px;
+  background-color: gold;
+  border-radius: 20px;
+  font-size: 0.8em;
+  padding: 5px 10px;
+  color: #444;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.tip-text {
+  position: fixed;
+  top: 60px;
+  right: 20px;
+  width: calc(100% - 60px);
+  background-color: gold;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 0.8em;
+  color: #444;
+  transition: width 1s ease-in-out;
 }
 @media only screen and (max-width: 768px) {
   .card {

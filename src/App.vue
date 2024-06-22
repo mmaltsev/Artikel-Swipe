@@ -23,7 +23,7 @@ import germanNouns from '../static/german_nouns.json';
 const NUMBER_OF_NOUNS = 2000;
 
 function preventBehavior(e) {
-    e.preventDefault(); 
+  e.preventDefault(); 
 };
 
 document.addEventListener("touchmove", preventBehavior, {passive: false});
