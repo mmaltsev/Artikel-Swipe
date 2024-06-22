@@ -61,6 +61,10 @@ export default {
 
       //   }
       // }
+      const pastWrongAnswers = JSON.parse(localStorage.getItem('wrongAnswers'));
+      // if (pastWrongAnswers.length % 5 === 0) {
+
+      // }
       for (let i = 0; i < numberOfWords; i++) {
         const randomInd = Math.floor(Math.random() * NUMBER_OF_NOUNS);
         randomWords.push(germanNouns[randomInd]);
