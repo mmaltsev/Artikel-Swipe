@@ -22,6 +22,12 @@ import GameCardsStack from './components/GameCardsStack';
 import germanNouns from '../static/german_nouns.json';
 const NUMBER_OF_NOUNS = 2000;
 
+function preventBehavior(e) {
+    e.preventDefault(); 
+};
+
+document.addEventListener("touchmove", preventBehavior, {passive: false});
+
 export default {
   name: 'App',
   components: {
