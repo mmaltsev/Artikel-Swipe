@@ -15,7 +15,11 @@ The [swipeable-cards](https://codesandbox.io/p/sandbox/swipeable-cards-forked-s3
 
 
 ## Future work
-To be added: [10000 nouns](https://github.com/digitapex/DerDieDas/blob/master/app/src/main/res/raw/list_nouns.txt) - merge with the existing 2000.
+- To be added: [10000 nouns](https://github.com/digitapex/DerDieDas/blob/master/app/src/main/res/raw/list_nouns.txt) - merge with the existing 2000.
+- Tips for using articles in certain cases.
+- Implement logic for repeating those words which were not guessed correctly at first.
+- Keyboard usage on desktop.
+- Different vocabulary for different levels: A1 - C2.
 
 
 ## License
