@@ -81,7 +81,7 @@ export default {
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   text-align: center;
-  height: calc(100vh - 16px);
+  height: calc(80vh - 16px);
 }
 .footer {
   position: absolute;
