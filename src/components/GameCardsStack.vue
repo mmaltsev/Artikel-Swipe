@@ -95,10 +95,10 @@ export default {
   }
   .tags {
     width: 83vw;
-    height: 50vh;
+    height: 66vh;
   }
   .tag-der, .tag-die {
-    margin-top: 30vh;
+    margin-top: 33vh;
   }
 }
 </style>
