@@ -385,6 +385,12 @@ var german_nouns_default = /*#__PURE__*/__webpack_require__.n(german_nouns);
 
 const NUMBER_OF_NOUNS = 2000;
 
+function preventBehavior(e) {
+  e.preventDefault();
+};
+
+document.addEventListener("touchmove", preventBehavior, { passive: false });
+
 /* harmony default export */ var App = ({
   name: 'App',
   components: {
@@ -436,14 +442,14 @@ const NUMBER_OF_NOUNS = 2000;
     }
   }
 });
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-2ad6a3a8","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/App.vue
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-07f0fa6a","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/App.vue
 var App_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"app"}},[_c('GameCardsStack',{attrs:{"cards":_vm.visibleCards},on:{"cardAccepted":_vm.handleCardAccepted,"cardRejected":_vm.handleCardRejected,"cardSkipped":_vm.handleCardSkipped,"hideCard":_vm.removeCardFromDeck}}),_vm._v(" "),_vm._m(0)],1)}
 var App_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"footer"},[_vm._v("\n      Inspired by\n      "),_c('a',{attrs:{"href":"https://apps.apple.com/de/app/derdasdie-german-articles/id6480586707","target":"_blank"}},[_vm._v("DerDasDie. German articles")])])}]
 var App_esExports = { render: App_render, staticRenderFns: App_staticRenderFns }
 /* harmony default export */ var selectortype_template_index_0_src_App = (App_esExports);
 // CONCATENATED MODULE: ./src/App.vue
 function App_injectStyle (ssrContext) {
-  __webpack_require__("gTLc")
+  __webpack_require__("dhSB")
 }
 var App_normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -494,7 +500,7 @@ module.exports = [{"english_translation":"Time","article":"Die","word":"Zeit"},{
 
 /***/ }),
 
-/***/ "gTLc":
+/***/ "dhSB":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -502,4 +508,4 @@ module.exports = [{"english_translation":"Time","article":"Die","word":"Zeit"},{
 /***/ })
 
 },["NHnr"]);
-//# sourceMappingURL=app.89d6808f7c40e09f7c23.js.map
+//# sourceMappingURL=app.60f4e754b188907df575.js.map
