@@ -91,11 +91,11 @@ export default {
 @media only screen and (max-width: 768px) {
   .cards {
     width: 83vw;
-    padding-top: 15vh;
+    padding-top: 10vh;
   }
   .tags {
     width: 83vw;
-    height: 70vh;
+    height: 60vh;
   }
   .tag-der, .tag-die {
     margin-top: 35vh;
