@@ -7,6 +7,13 @@ webpackJsonp([0],{
 
 /***/ }),
 
+/***/ "M64x":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "NHnr":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -315,14 +322,14 @@ var Component = normalizeComponent(
     }
   }
 });
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-257a5bae","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/GameCardsStack.vue
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-973b1cec","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/GameCardsStack.vue
 var GameCardsStack_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"cards"},[_vm._l((_vm.cards),function(card,index){return _c('GameCard',{key:(card.english_translation + index),attrs:{"cardWord":card.word,"cardArticle":card.article,"cardEnTranslation":card.english_translation,"is-current":index === 0},on:{"cardAccepted":function($event){return _vm.$emit('cardAccepted');},"cardRejected":function($event){return _vm.$emit('cardRejected');},"cardSkipped":function($event){return _vm.$emit('cardSkipped');},"hideCard":function($event){return _vm.$emit('hideCard');}}})}),_vm._v(" "),_vm._m(0)],2)}
 var GameCardsStack_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"tags"},[_c('div',{staticClass:"tag tag-der noselect"},[_vm._v("Der "),_c('span',{staticClass:"tag-arrow"},[_vm._v("→")])]),_vm._v(" "),_c('div',{staticClass:"tag tag-die noselect"},[_c('span',{staticClass:"tag-arrow"},[_vm._v("←")]),_vm._v(" Die")]),_vm._v(" "),_c('div',{staticClass:"tag tag-das noselect"},[_vm._v("Das "),_c('span',{staticClass:"tag-arrow"},[_vm._v("↑")])])])}]
 var GameCardsStack_esExports = { render: GameCardsStack_render, staticRenderFns: GameCardsStack_staticRenderFns }
 /* harmony default export */ var components_GameCardsStack = (GameCardsStack_esExports);
 // CONCATENATED MODULE: ./src/components/GameCardsStack.vue
 function GameCardsStack_injectStyle (ssrContext) {
-  __webpack_require__("Z80E")
+  __webpack_require__("M64x")
 }
 var GameCardsStack_normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -335,7 +342,7 @@ var GameCardsStack___vue_template_functional__ = false
 /* styles */
 var GameCardsStack___vue_styles__ = GameCardsStack_injectStyle
 /* scopeId */
-var GameCardsStack___vue_scopeId__ = "data-v-257a5bae"
+var GameCardsStack___vue_scopeId__ = "data-v-973b1cec"
 /* moduleIdentifier (server only) */
 var GameCardsStack___vue_module_identifier__ = null
 var GameCardsStack_Component = GameCardsStack_normalizeComponent(
@@ -429,14 +436,14 @@ const NUMBER_OF_NOUNS = 2000;
     }
   }
 });
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-60c9b9a6","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/App.vue
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-2ad6a3a8","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/App.vue
 var App_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"app"}},[_c('GameCardsStack',{attrs:{"cards":_vm.visibleCards},on:{"cardAccepted":_vm.handleCardAccepted,"cardRejected":_vm.handleCardRejected,"cardSkipped":_vm.handleCardSkipped,"hideCard":_vm.removeCardFromDeck}}),_vm._v(" "),_vm._m(0)],1)}
 var App_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"footer"},[_vm._v("\n      Inspired by\n      "),_c('a',{attrs:{"href":"https://apps.apple.com/de/app/derdasdie-german-articles/id6480586707","target":"_blank"}},[_vm._v("DerDasDie. German articles")])])}]
 var App_esExports = { render: App_render, staticRenderFns: App_staticRenderFns }
 /* harmony default export */ var selectortype_template_index_0_src_App = (App_esExports);
 // CONCATENATED MODULE: ./src/App.vue
 function App_injectStyle (ssrContext) {
-  __webpack_require__("gI6H")
+  __webpack_require__("gTLc")
 }
 var App_normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -487,14 +494,7 @@ module.exports = [{"english_translation":"Time","article":"Die","word":"Zeit"},{
 
 /***/ }),
 
-/***/ "Z80E":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "gI6H":
+/***/ "gTLc":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -502,4 +502,4 @@ module.exports = [{"english_translation":"Time","article":"Die","word":"Zeit"},{
 /***/ })
 
 },["NHnr"]);
-//# sourceMappingURL=app.82a86e1be74bb97b8959.js.map
+//# sourceMappingURL=app.89d6808f7c40e09f7c23.js.map
