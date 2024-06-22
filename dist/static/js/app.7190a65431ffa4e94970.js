@@ -1,19 +1,5 @@
 webpackJsonp([0],{
 
-/***/ "2WdL":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "M64x":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
 /***/ "NHnr":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -247,7 +233,7 @@ const DAS_ARTICLE = 'cardSkipped';
     }
   }
 });
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-18fe8100","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/GameCard.vue
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-63a9fa3f","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/GameCard.vue
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.isShowing)?_c('div',{ref:"interactElement",staticClass:"card",class:{
     isAnimating: _vm.isInteractAnimating,
     isCurrent: _vm.isCurrent
@@ -257,7 +243,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ var components_GameCard = (esExports);
 // CONCATENATED MODULE: ./src/components/GameCard.vue
 function injectStyle (ssrContext) {
-  __webpack_require__("2WdL")
+  __webpack_require__("zszu")
 }
 var normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -270,7 +256,7 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-18fe8100"
+var __vue_scopeId__ = "data-v-63a9fa3f"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
@@ -322,14 +308,14 @@ var Component = normalizeComponent(
     }
   }
 });
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-973b1cec","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/GameCardsStack.vue
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-2e3941af","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/GameCardsStack.vue
 var GameCardsStack_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"cards"},[_vm._l((_vm.cards),function(card,index){return _c('GameCard',{key:(card.english_translation + index),attrs:{"cardWord":card.word,"cardArticle":card.article,"cardEnTranslation":card.english_translation,"is-current":index === 0},on:{"cardAccepted":function($event){return _vm.$emit('cardAccepted');},"cardRejected":function($event){return _vm.$emit('cardRejected');},"cardSkipped":function($event){return _vm.$emit('cardSkipped');},"hideCard":function($event){return _vm.$emit('hideCard');}}})}),_vm._v(" "),_vm._m(0)],2)}
 var GameCardsStack_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"tags"},[_c('div',{staticClass:"tag tag-der noselect"},[_vm._v("Der "),_c('span',{staticClass:"tag-arrow"},[_vm._v("→")])]),_vm._v(" "),_c('div',{staticClass:"tag tag-die noselect"},[_c('span',{staticClass:"tag-arrow"},[_vm._v("←")]),_vm._v(" Die")]),_vm._v(" "),_c('div',{staticClass:"tag tag-das noselect"},[_vm._v("Das "),_c('span',{staticClass:"tag-arrow"},[_vm._v("↑")])])])}]
 var GameCardsStack_esExports = { render: GameCardsStack_render, staticRenderFns: GameCardsStack_staticRenderFns }
 /* harmony default export */ var components_GameCardsStack = (GameCardsStack_esExports);
 // CONCATENATED MODULE: ./src/components/GameCardsStack.vue
 function GameCardsStack_injectStyle (ssrContext) {
-  __webpack_require__("M64x")
+  __webpack_require__("gGts")
 }
 var GameCardsStack_normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -342,7 +328,7 @@ var GameCardsStack___vue_template_functional__ = false
 /* styles */
 var GameCardsStack___vue_styles__ = GameCardsStack_injectStyle
 /* scopeId */
-var GameCardsStack___vue_scopeId__ = "data-v-973b1cec"
+var GameCardsStack___vue_scopeId__ = "data-v-2e3941af"
 /* moduleIdentifier (server only) */
 var GameCardsStack___vue_module_identifier__ = null
 var GameCardsStack_Component = GameCardsStack_normalizeComponent(
@@ -505,7 +491,21 @@ module.exports = [{"english_translation":"Time","article":"Die","word":"Zeit"},{
 
 // removed by extract-text-webpack-plugin
 
+/***/ }),
+
+/***/ "gGts":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "zszu":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
 /***/ })
 
 },["NHnr"]);
-//# sourceMappingURL=app.60f4e754b188907df575.js.map
+//# sourceMappingURL=app.7190a65431ffa4e94970.js.map
