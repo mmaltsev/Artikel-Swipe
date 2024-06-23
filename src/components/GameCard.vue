@@ -374,7 +374,7 @@ $fs-card-title: 1.925em;
   padding: 10px;
   font-size: 0.8em;
   color: #444;
-  transition: width 1s ease-in-out;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 @media only screen and (max-width: 768px) {
   .card {
