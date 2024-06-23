@@ -1,5 +1,5 @@
 # Artikel Swiper
-Artikel Swiper is an application for learning German articles by swiping nouns according to an article that should go with it. There are 2000 nouns that are randomly displayed to a user. If wiped correctly, the next noun is shown.
+Artikel Swiper is an application for learning German articles by swiping nouns according to the articles that should go with them. There are 2000 nouns that are randomly displayed to a user. If swiped correctly, the next noun is shown.
 
 
 ## Deployment
@@ -16,12 +16,12 @@ The [swipeable card stack implementation](https://css-tricks.com/swipeable-card-
 
 ## Future work
 - To be added: [10000 nouns](https://github.com/digitapex/DerDieDas/blob/master/app/src/main/res/raw/list_nouns.txt) - merge with the existing 2000.
-- Tips for using articles in certain cases.
+- ~Tips for using articles in certain cases.~
 - Implement logic for repeating those words which were not guessed correctly at first.
 - Keyboard usage on desktop.
 - Different vocabulary for different levels: A1 - C2.
-- Implement settings area
-- Add audio for better memorizing
+- Implement Settings.
+- Add audio for better memorization.
 
 
 ## License
