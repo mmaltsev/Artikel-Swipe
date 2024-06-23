@@ -75,7 +75,7 @@
 		"englishTranslation": "Face",
 		"word": "Gesicht",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Mother",
@@ -111,7 +111,7 @@
 		"englishTranslation": "Life",
 		"word": "Leben",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Back",
@@ -561,7 +561,7 @@
 		"englishTranslation": "Thought",
 		"word": "Gedanke",
 		"article": "Der",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Love",
@@ -639,7 +639,7 @@
 		"englishTranslation": "Building",
 		"word": "Gebäude",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Number",
@@ -705,7 +705,7 @@
 		"englishTranslation": "Business",
 		"word": "Geschäft",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Sky",
@@ -861,7 +861,7 @@
 		"englishTranslation": "Food",
 		"word": "Essen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Horse",
@@ -1017,7 +1017,7 @@
 		"englishTranslation": "Dinner",
 		"word": "Abendessen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Hall",
@@ -1233,13 +1233,13 @@
 		"englishTranslation": "Feeling",
 		"word": "Gefühl",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Store",
 		"word": "Geschäft",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Mountain",
@@ -1323,7 +1323,7 @@
 		"englishTranslation": "Company",
 		"word": "Unternehmen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Church",
@@ -1449,7 +1449,7 @@
 		"englishTranslation": "Area",
 		"word": "Gebiet",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Narrator",
@@ -1485,7 +1485,7 @@
 		"englishTranslation": "King",
 		"word": "König",
 		"article": "Der",
-		"tipId": ""
+		"tipId": "39"
 	},
 	{
 		"englishTranslation": "Fear",
@@ -1521,7 +1521,7 @@
 		"englishTranslation": "Conversation",
 		"word": "Gespräch",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Boat",
@@ -1593,7 +1593,7 @@
 		"englishTranslation": "Drink",
 		"word": "Getränk",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Hotel",
@@ -1641,7 +1641,7 @@
 		"englishTranslation": "Gold",
 		"word": "Gold",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "42"
 	},
 	{
 		"englishTranslation": "Cigarette",
@@ -1797,7 +1797,7 @@
 		"englishTranslation": "Shop",
 		"word": "Geschäft",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Cop",
@@ -1845,7 +1845,7 @@
 		"englishTranslation": "Noise",
 		"word": "Geräusch",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Park",
@@ -1923,7 +1923,7 @@
 		"englishTranslation": "Brain",
 		"word": "Gehirn",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Service",
@@ -2001,7 +2001,7 @@
 		"englishTranslation": "Law",
 		"word": "Gesetz",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Surface",
@@ -2055,7 +2055,7 @@
 		"englishTranslation": "Lunch",
 		"word": "Mittagessen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Change",
@@ -2067,7 +2067,7 @@
 		"englishTranslation": "Creature",
 		"word": "Lebewesen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Soul",
@@ -2145,7 +2145,7 @@
 		"englishTranslation": "Silver",
 		"word": "Silber",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "42"
 	},
 	{
 		"englishTranslation": "Roof",
@@ -2157,7 +2157,7 @@
 		"englishTranslation": "Weight",
 		"word": "Gewicht",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Tongue",
@@ -2337,7 +2337,7 @@
 		"englishTranslation": "Talk",
 		"word": "Gespräch",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Plane",
@@ -2469,7 +2469,7 @@
 		"englishTranslation": "Meeting",
 		"word": "Treffen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Nurse",
@@ -2511,7 +2511,7 @@
 		"englishTranslation": "Gift",
 		"word": "Geschenk",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Restaurant",
@@ -2589,7 +2589,7 @@
 		"englishTranslation": "Court",
 		"word": "Gericht",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Course",
@@ -2625,7 +2625,7 @@
 		"englishTranslation": "Pleasure",
 		"word": "Vergnügen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Detail",
@@ -2649,7 +2649,7 @@
 		"englishTranslation": "Guest",
 		"word": "Gast",
 		"article": "Der",
-		"tipId": ""
+		"tipId": "40"
 	},
 	{
 		"englishTranslation": "Experience",
@@ -2697,7 +2697,7 @@
 		"englishTranslation": "Deal",
 		"word": "Geschäft",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Nature",
@@ -2871,7 +2871,7 @@
 		"englishTranslation": "Television",
 		"word": "Fernsehen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Cover",
@@ -2985,7 +2985,7 @@
 		"englishTranslation": "Parking",
 		"word": "Parken",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Breakfast",
@@ -3063,7 +3063,7 @@
 		"englishTranslation": "Honey",
 		"word": "Honig",
 		"article": "Der",
-		"tipId": ""
+		"tipId": "39"
 	},
 	{
 		"englishTranslation": "Pile",
@@ -3333,7 +3333,7 @@
 		"englishTranslation": "Painting",
 		"word": "Gemälde",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Curtain",
@@ -3465,7 +3465,7 @@
 		"englishTranslation": "Iron",
 		"word": "Eisen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "42"
 	},
 	{
 		"englishTranslation": "Meat",
@@ -3549,7 +3549,7 @@
 		"englishTranslation": "Race",
 		"word": "Rennen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Shock",
@@ -3663,7 +3663,7 @@
 		"englishTranslation": "Desire",
 		"word": "Verlangen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Patient",
@@ -3675,7 +3675,7 @@
 		"englishTranslation": "Grin",
 		"word": "Grinsen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Lover",
@@ -3699,7 +3699,7 @@
 		"englishTranslation": "Knowledge",
 		"word": "Wissen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Beginning",
@@ -3801,7 +3801,7 @@
 		"englishTranslation": "Hold",
 		"word": "Halten",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Relationship",
@@ -3825,7 +3825,7 @@
 		"englishTranslation": "Dish",
 		"word": "Gericht",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Highway",
@@ -3885,7 +3885,7 @@
 		"englishTranslation": "Cry",
 		"word": "Weinen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Program",
@@ -3915,7 +3915,7 @@
 		"englishTranslation": "Being",
 		"word": "Wesen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Steel",
@@ -3927,7 +3927,7 @@
 		"englishTranslation": "Sidewalk",
 		"word": "Bürgersteig",
 		"article": "Der",
-		"tipId": ""
+		"tipId": "39"
 	},
 	{
 		"englishTranslation": "Uniform",
@@ -3999,7 +3999,7 @@
 		"englishTranslation": "Thinking",
 		"word": "Denken",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Crack",
@@ -4011,7 +4011,7 @@
 		"englishTranslation": "Prayer",
 		"word": "Gebet",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Towel",
@@ -4227,7 +4227,7 @@
 		"englishTranslation": "Poem",
 		"word": "Gedicht",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Prince",
@@ -4374,10 +4374,10 @@
 		"tipId": ""
 	},
 	{
-		"englishTranslation": "Reading",
+		"englishTranslation": "Read",
 		"word": "Lesen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Fun",
@@ -4503,7 +4503,7 @@
 		"englishTranslation": "Present",
 		"word": "Geschenk",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Theater",
@@ -4617,7 +4617,7 @@
 		"englishTranslation": "Rifle",
 		"word": "Gewehr",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Career",
@@ -4845,7 +4845,7 @@
 		"englishTranslation": "Nod",
 		"word": "Nicken",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Shell",
@@ -5193,7 +5193,7 @@
 		"englishTranslation": "Appearance",
 		"word": "Aussehen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Sigh",
@@ -5631,7 +5631,7 @@
 		"englishTranslation": "Cage",
 		"word": "Käfig",
 		"article": "Der",
-		"tipId": ""
+		"tipId": "39"
 	},
 	{
 		"englishTranslation": "Chocolate",
@@ -5661,7 +5661,7 @@
 		"englishTranslation": "Gear",
 		"word": "Getriebe",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Suitcase",
@@ -5679,7 +5679,7 @@
 		"englishTranslation": "Breathing",
 		"word": "Atmen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Role",
@@ -6201,13 +6201,13 @@
 		"englishTranslation": "Glow",
 		"word": "Leuchten",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Behavior",
 		"word": "Verhalten",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Passage",
@@ -6273,7 +6273,7 @@
 		"englishTranslation": "Walking",
 		"word": "Gehen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Balance",
@@ -6447,7 +6447,7 @@
 		"englishTranslation": "Supper",
 		"word": "Abendessen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Comfort",
@@ -6477,7 +6477,7 @@
 		"englishTranslation": "Estate",
 		"word": "Anwesen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Poet",
@@ -6489,7 +6489,7 @@
 		"englishTranslation": "Palace",
 		"word": "Palast",
 		"article": "Der",
-		"tipId": ""
+		"tipId": "40"
 	},
 	{
 		"englishTranslation": "Soup",
@@ -6531,7 +6531,7 @@
 		"englishTranslation": "Conference",
 		"word": "Konferenz",
 		"article": "Die",
-		"tipId": ""
+		"tipId": "45"
 	},
 	{
 		"englishTranslation": "Juice",
@@ -6759,7 +6759,7 @@
 		"englishTranslation": "Existence",
 		"word": "Existenz",
 		"article": "Die",
-		"tipId": ""
+		"tipId": "45"
 	},
 	{
 		"englishTranslation": "Trace",
@@ -6795,7 +6795,7 @@
 		"englishTranslation": "Device",
 		"word": "Gerät",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Landscape",
@@ -7053,7 +7053,7 @@
 		"englishTranslation": "Intelligence",
 		"word": "Intelligenz",
 		"article": "Die",
-		"tipId": ""
+		"tipId": "45"
 	},
 	{
 		"englishTranslation": "Excuse",
@@ -7095,7 +7095,7 @@
 		"englishTranslation": "Gown",
 		"word": "Gewand",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Border",
@@ -7221,7 +7221,7 @@
 		"englishTranslation": "Feel",
 		"word": "Gefühl",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Shorts",
@@ -7293,7 +7293,7 @@
 		"englishTranslation": "Failure",
 		"word": "Versagen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Sin",
@@ -7371,7 +7371,7 @@
 		"englishTranslation": "Crying",
 		"word": "Weinen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Sip",
@@ -7383,7 +7383,7 @@
 		"englishTranslation": "Travel",
 		"word": "Reisen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Cookie",
@@ -7539,7 +7539,7 @@
 		"englishTranslation": "Knock",
 		"word": "Klopfen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Spell",
@@ -7683,7 +7683,7 @@
 		"englishTranslation": "Rumor",
 		"word": "Gerücht",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Gravity",
@@ -7719,7 +7719,7 @@
 		"englishTranslation": "Confidence",
 		"word": "Vertrauen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Depth",
@@ -8121,7 +8121,7 @@
 		"englishTranslation": "Vegetable",
 		"word": "Gemüse",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Tin",
@@ -8493,7 +8493,7 @@
 		"englishTranslation": "Vessel",
 		"word": "Gefäß",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Thunder",
@@ -8643,7 +8643,7 @@
 		"englishTranslation": "Lifetime",
 		"word": "Leben",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Dancer",
@@ -8727,7 +8727,7 @@
 		"englishTranslation": "Roar",
 		"word": "Gebrüll",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Troop",
@@ -9093,7 +9093,7 @@
 		"englishTranslation": "Tissue",
 		"word": "Gewebe",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Belief",
@@ -9225,7 +9225,7 @@
 		"englishTranslation": "Drinking",
 		"word": "Trinken",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Consciousness",
@@ -9243,7 +9243,7 @@
 		"englishTranslation": "Dancing",
 		"word": "Tanzen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Perfume",
@@ -9279,13 +9279,13 @@
 		"englishTranslation": "Railing",
 		"word": "Geländer",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "License",
 		"word": "Lizenz",
 		"article": "Die",
-		"tipId": ""
+		"tipId": "45"
 	},
 	{
 		"englishTranslation": "Mercy",
@@ -9483,7 +9483,7 @@
 		"englishTranslation": "Glare",
 		"word": "Blenden",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Flow",
@@ -9933,7 +9933,7 @@
 		"englishTranslation": "Territory",
 		"word": "Gebiet",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Punch",
@@ -10221,7 +10221,7 @@
 		"englishTranslation": "Consequence",
 		"word": "Konsequenz",
 		"article": "Die",
-		"tipId": ""
+		"tipId": "45"
 	},
 	{
 		"englishTranslation": "Observation",
@@ -10347,7 +10347,7 @@
 		"englishTranslation": "Toast",
 		"word": "Toast",
 		"article": "Der",
-		"tipId": ""
+		"tipId": "40"
 	},
 	{
 		"englishTranslation": "Facility",
@@ -10533,7 +10533,7 @@
 		"englishTranslation": "Reference",
 		"word": "Referenz",
 		"article": "Die",
-		"tipId": ""
+		"tipId": "45"
 	},
 	{
 		"englishTranslation": "Disgust",
@@ -10647,7 +10647,7 @@
 		"englishTranslation": "Procedure",
 		"word": "Verfahren",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Fighter",
@@ -10719,7 +10719,7 @@
 		"englishTranslation": "Running",
 		"word": "Laufen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Loop",
@@ -10731,7 +10731,7 @@
 		"englishTranslation": "Sleeping",
 		"word": "Schlafen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Soda",
@@ -10791,7 +10791,7 @@
 		"englishTranslation": "Knuckle",
 		"word": "Gelenk",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "44"
 	},
 	{
 		"englishTranslation": "Goose",
@@ -10923,7 +10923,7 @@
 		"englishTranslation": "Waiting",
 		"word": "Warten",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Bulb",
@@ -11043,7 +11043,7 @@
 		"englishTranslation": "Eating",
 		"word": "Essen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Bond",
@@ -11055,7 +11055,7 @@
 		"englishTranslation": "Swimming",
 		"word": "Schwimmen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Foundation",
@@ -11391,7 +11391,7 @@
 		"englishTranslation": "Trust",
 		"word": "Vertrauen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Arc",
@@ -11499,7 +11499,7 @@
 		"englishTranslation": "Shooting",
 		"word": "Schießen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Earring",
@@ -11583,7 +11583,7 @@
 		"englishTranslation": "Encounter",
 		"word": "Aufeinandertreffen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Sequence",
@@ -11697,7 +11697,7 @@
 		"englishTranslation": "Grunt",
 		"word": "Grunzen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Punishment",
@@ -11853,7 +11853,7 @@
 		"englishTranslation": "Gathering",
 		"word": "Treffen",
 		"article": "Das",
-		"tipId": ""
+		"tipId": "43"
 	},
 	{
 		"englishTranslation": "Principle",
@@ -12142,5 +12142,41 @@
 		"word": "Euro",
 		"article": "Der",
 		"tipId": "31"
+	},
+	{
+		"englishTranslation": "Red",
+		"word": "Rot",
+		"article": "Das",
+		"tipId": "41"
+	},
+	{
+		"englishTranslation": "Blue",
+		"word": "Blau",
+		"article": "Das",
+		"tipId": "41"
+	},
+	{
+		"englishTranslation": "Yellow",
+		"word": "Gelb",
+		"article": "Das",
+		"tipId": "41"
+	},
+	{
+		"englishTranslation": "Green",
+		"word": "Grün",
+		"article": "Das",
+		"tipId": "41"
+	},
+	{
+		"englishTranslation": "White",
+		"word": "Weiß",
+		"article": "Das",
+		"tipId": "41"
+	},
+	{
+		"englishTranslation": "Schwarz",
+		"word": "Black",
+		"article": "Das",
+		"tipId": "41"
 	}
 ]
