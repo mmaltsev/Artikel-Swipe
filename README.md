@@ -20,6 +20,8 @@ The [swipeable card stack implementation](https://css-tricks.com/swipeable-card-
 - Implement logic for repeating those words which were not guessed correctly at first.
 - Keyboard usage on desktop.
 - Different vocabulary for different levels: A1 - C2.
+- Implement settings area
+- Add audio for better memorizing
 
 
 ## License
