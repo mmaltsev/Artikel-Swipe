@@ -11,7 +11,7 @@
     },
     {
         "id": "2",
-        "text": "Most nouns with the ending -e are feminine. Careful: There are exceptions for masculine and neutral!",
+        "text": "Most nouns with an unstressed ending -e are feminine. Careful: There are exceptions for masculine and neutral!",
         "type": "feminine"
     },
     {
@@ -193,5 +193,40 @@
         "id": "38",
         "text": "Most nouns with the ending -um are neuter.",
         "type": "neuter"
+    },
+    {
+        "id": "39",
+        "text": "Most nouns with the ending -ig (except for numbers) are masculine.",
+        "type": "masculine"
+    },
+    {
+        "id": "40",
+        "text": "Most nouns with the ending -ast are masculine.",
+        "type": "masculine"
+    },
+    {
+        "id": "41",
+        "text": "Names of colors in German are neuter.",
+        "type": "neuter"
+    },
+    {
+        "id": "42",
+        "text": "Most metals and units in German are neuter.",
+        "type": "neuter"
+    },
+    {
+        "id": "43",
+        "text": "Nouns which stem from verb infinitives in -en are neuter.",
+        "type": "neuter"
+    },
+    {
+        "id": "44",
+        "text": "Most nouns with the prefix Ge- are neuter.",
+        "type": "neuter"
+    },
+    {
+        "id": "45",
+        "text": "Most nouns with the ending -enz are feminine.",
+        "type": "feminine"
     }
 ]
